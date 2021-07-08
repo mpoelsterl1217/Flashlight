@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NEk-u7-M4V">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NEk-u7-M4V">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="64"/>
                                 <state key="normal" title="TURN ON">
@@ -30,8 +30,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="NEk-u7-M4V" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="gXy-M5-Wvi"/>
-                            <constraint firstItem="NEk-u7-M4V" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wvv-kF-i6K"/>
+                            <constraint firstItem="NEk-u7-M4V" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="3CA-GH-YoQ"/>
+                            <constraint firstItem="NEk-u7-M4V" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="JPC-Xd-RfG"/>
+                            <constraint firstItem="NEk-u7-M4V" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Uq1-gy-37D"/>
+                            <constraint firstItem="NEk-u7-M4V" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="spu-hZ-gMV"/>
                         </constraints>
                     </view>
                 </viewController>
